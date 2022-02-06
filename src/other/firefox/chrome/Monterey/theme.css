@@ -18,6 +18,6 @@
 
 /* Set theme version text in customization panel */
 #customization-footer::before {
-	content: "Firefox Mojave theme";
+	content: "Firefox Monterey theme";
 	padding: 9px;
 }

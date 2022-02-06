@@ -13,7 +13,7 @@ else
   DEST_DIR="$HOME/.themes"
 fi
 
-THEME_NAME=Mojave
+THEME_NAME=Monterey
 COLOR_VARIANTS=('-light' '-dark')
 OPACITY_VARIANTS=('' '-solid')
 ALT_VARIANTS=('' '-alt')
@@ -109,8 +109,8 @@ install() {
   echo "[X-GNOME-Metatheme]" >>                                                              "${THEME_DIR}/index.theme"
   echo "GtkTheme=${2}${3}${4}${5}${6}${7}" >>                                                "${THEME_DIR}/index.theme"
   echo "MetacityTheme=${2}${3}${4}${5}${6}${7}" >>                                           "${THEME_DIR}/index.theme"
-  echo "IconTheme=McMojave-circle${2}${3}" >>                                                "${THEME_DIR}/index.theme"
-  echo "CursorTheme=McMojave Cursors" >>                                                     "${THEME_DIR}/index.theme"
+  echo "IconTheme=McMonterey-circle${2}${3}" >>                                                "${THEME_DIR}/index.theme"
+  echo "CursorTheme=McMonterey Cursors" >>                                                     "${THEME_DIR}/index.theme"
   echo "ButtonLayout=close,minimize,maximize:menu" >>                                        "${THEME_DIR}/index.theme"
 
   mkdir -p                                                                                   "${THEME_DIR}/gnome-shell"

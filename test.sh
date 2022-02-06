@@ -13,7 +13,7 @@ else
   DEST_DIR="$HOME/.themes"
 fi
 
-THEME_NAME=Mojave
+THEME_NAME=Monterey
 COLOR_VARIANTS=('-light' '-dark')
 
 if [[ "$(command -v gnome-shell)" ]]; then
@@ -181,10 +181,10 @@ install_gdm() {
     cp -an "$ETC_THEME_FILE" "$ETC_THEME_FILE.bak"
     # rm -rf "$ETC_THEME_FILE" "$GS_THEME_FILE"
     # mv "$GS_THEME_FILE.bak" "$GS_THEME_FILE"
-    [[ -d "$SHELL_THEME_FOLDER/Mojave" ]] && rm -rf "$SHELL_THEME_FOLDER/Mojave"
-    cp -r "$GDM_THEME_DIR/gnome-shell" "$SHELL_THEME_FOLDER/Mojave"
+    [[ -d "$SHELL_THEME_FOLDER/Monterey" ]] && rm -rf "$SHELL_THEME_FOLDER/Monterey"
+    cp -r "$GDM_THEME_DIR/gnome-shell" "$SHELL_THEME_FOLDER/Monterey"
     cd "$ETC_THEME_FOLDER"
-    ln -s "$SHELL_THEME_FOLDER/Mojave/gnome-shell.css" gdm3.css
+    ln -s "$SHELL_THEME_FOLDER/Monterey/gnome-shell.css" gdm3.css
   fi
 }
 
@@ -211,7 +211,7 @@ revert_gdm() {
     echo "reverting Ubuntu gnome-shell theme..."
     rm -rf "$ETC_THEME_FILE"
     mv "$ETC_THEME_FILE.bak" "$ETC_THEME_FILE"
-    [[ -d "$SHELL_THEME_FOLDER/Mojave" ]] && rm -rf "$SHELL_THEME_FOLDER/Mojave"
+    [[ -d "$SHELL_THEME_FOLDER/Monterey" ]] && rm -rf "$SHELL_THEME_FOLDER/Monterey"
   fi
 }
 

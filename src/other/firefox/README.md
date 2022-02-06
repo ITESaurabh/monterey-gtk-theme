@@ -1,15 +1,15 @@
 
-## Firefox Mojave theme
+## Firefox Monterey theme
 
-<p align="center">A MacOSX Mojave theme for Firefox 60+</p>
+<p align="center">A MacOSX Monterey theme for Firefox 60+</p>
 
 #### Preview
-![01](https://github.com/vinceliuice/Mojave-gtk-theme/blob/images/firefox01.png?raw=true)
-![02](https://github.com/vinceliuice/Mojave-gtk-theme/blob/images/firefox02.png?raw=true)
+![01](https://github.com/vinceliuice/Monterey-gtk-theme/blob/images/firefox01.png?raw=true)
+![02](https://github.com/vinceliuice/Monterey-gtk-theme/blob/images/firefox02.png?raw=true)
 
 ## Description
 
-This is a bunch of CSS code to make Firefox look closer to Mac Mojave theme.
+This is a bunch of CSS code to make Firefox look closer to Mac Monterey theme.
 Based on https://github.com/rafaelmardojai/firefox-gnome-theme
 
 ## Installation
